@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+:root { font-family: 'IBM Plex Sans', sans-serif; color: #1a1a1a; background: #fff; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: #cbe5d5; color: #123d29; }
