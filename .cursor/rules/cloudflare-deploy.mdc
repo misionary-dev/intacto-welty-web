@@ -1,0 +1,12 @@
+---
+description: Intacto Welty se publica en Cloudflare al pushear main
+alwaysApply: true
+---
+
+# Intacto Welty → Cloudflare
+
+- Worker `intacto-welty-web`, dominio `intacto.misionary.dev`
+- Vite estático (no OpenNext)
+- Deploy: `npm run deploy`
+- CI: Workers Builds, branch `main`, comando `npm run deploy`
+- Push a `main` actualiza producción
